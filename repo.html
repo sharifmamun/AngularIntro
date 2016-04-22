@@ -1,0 +1,12 @@
+<h2>{{repo.name}}</h2>
+<div ng-show="!repo.collaborators">
+  <h2>Something is messed up!</h2>
+  <br/>
+  {{error}}
+</div>  
+<div ng-repeat="user in repo.collaborators">
+  {{user.login}}
+</div>
+  
+<br/>
+<a href="#/main/">Back to search</a>

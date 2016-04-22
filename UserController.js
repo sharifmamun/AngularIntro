@@ -17,9 +17,9 @@
     };
 
     var onError = function(reason) {
-      $scope.error = "Could not fetch data";
+      $scope.error = "Could not fetch data, because of " + reason;
     };
-
+    
     $scope.username = $routeParams.username;
     $scope.repoSortOrder = "-stargazers_count";
     github.getUser($scope.username).then(onUserComplete, onError);

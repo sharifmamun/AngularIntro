@@ -1,2 +1,26 @@
 /* Styles go here */
+body {
+  height: 25%;
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 5%;
+  background: Gainsboro;
+}
 
+table, .user {
+  padding-top: 1%;
+}
+
+th {
+    text-align: left;
+}
+
+.stars {
+  padding-left: 5%;
+  padding-right: 25%;
+}
+
+.counter {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
